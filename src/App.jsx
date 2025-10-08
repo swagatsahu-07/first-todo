@@ -10,7 +10,7 @@ function App() {
 
   return (
     
-    <div className='flex w-screen h-screen bg-gray-800 p-10'>
+    <div className='flex w-screen h-screen bg-gray-800 p-10 text-white'>
         <Create todos={todos} setTodos={setTodos}/>
       <Read todos={todos} setTodos={setTodos} />
 
