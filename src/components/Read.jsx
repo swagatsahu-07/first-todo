@@ -18,8 +18,8 @@ const Read = () => {
      }
 
    const renderUser =  todos.map((val) => {
-    return <li className='mb-4 flex justify-between items-center p-4 bg-gray-900 rounded' key={val.id}>
-        <span className='text-xl font-thin'>{val.task}</span>  <button className='text-sm font-thin text-red-400' onClick={() => deleteHandler(val.id)}>Delete</button></li>
+    return <li className='mb-4 flex justify-between items-center p-4 bg-gradient-to-r from-indigo-300/50 to-blue-500/50 backdrop-blur-md rounded' key={val.id}>
+        <span className='text-xl font-thin'>{val.task}</span>  <button className='text-sm font-thin text-red-900' onClick={() => deleteHandler(val.id)}>Delete</button></li>
    })
   return (
      
